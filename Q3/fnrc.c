@@ -27,7 +27,7 @@ char firstNonRepeatingChar (char sentence[], int length)
                 
             } else {
                 
-                if (sentence[minorChar] == sentence[majorChar] && sentence[minorChar] != ' '){
+                if (sentence[minorChar] == sentence[majorChar] && sentence[minorChar] != '/ '){
                     
                     minorChar = length;
                     isFound = 1;
